@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== UNICONS ===============-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        a<span>s</span>im
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+          <li><a href="#about" class="nav__link ">About</a></li>
+          <li><a href="#services" class="nav__link ">Services</a></li>
+          <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#contact" class="nav__link ">Contact</a></li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class=" ui uil-times"></i>
+        </div>
+      </div>
+      <div class="nav__socials">
+        <a href="www.facebook.com" class="nav__social-link" target="_blank">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+
+        <a href="www.twitter.com" class="nav__social-link" target="_blank">
+          <i class="uil uil-twitter"></i>
+        </a>
+
+        <a href="www.linkedin.com" class="nav__social-link" target="_blank">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="www.instagram.com" class="nav__social-link" target="_blank">
+          <i class="uil uil-instagram"></i>
+        </a>
+      </div>
+
+      <div class="nav__btns">
+        <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+        <div class="nav__toggle" id="id-toggle">
+          <i class="uil uil-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Welcome to My Portfolio Website</span>
+          <h1 class="home__title">Hi. I'm Asim Askarov <span>Web Developer.</span>in Azerbaijan</h1>
+        </div>
+        <img src="assets/img/My.jpg" alt="" class="home__img">
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="assets/img/My.jpg" alt="" class="about_img">
+        <div class="about__content">
+          <h2 class="section__title">About me</h2>
+          <p class="about__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, mollitia laudantium reprehenderit autem,
+            ipsa hic, sed alias quia adipisci facere eum. Labore quaerat reprehenderit eum eaque quia tenetur laborum
+            dolorum?
+          </p>
+
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills">
+              Main Skills
+            </span>
+            <span class="tabs__btn" data-target="#awards">
+              Awards
+            </span>
+            <span class="tabs__btn" data-target="#experience">
+              Experience
+            </span>
+            <span class="tabs__btn" data-target="#education">
+              Education & Certification
+            </span>
+          </div>
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description"><span>User experience design </span>- UI.UX <span>Delight the user and make
+                    it
+                    work.</span></p>
+                <p class="tabs__description"><span>Web and user interface design </span>- Development <span>Websites,
+                    web experiences
+                  </span></p>
+                <p class="tabs__description"><span>Interaction Design </span>- Animation <span>I like to move it move
+                    it.
+                  </span></p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="awards">
+              <div class="tabs__data grid">
+                <p class="tabs__description"><span>Awwwards.com<span></span></span>- Winner <span>2019-2020</span></p>
+
+                <p class="tabs__description"><span>CSS design Awards</span>- Winner <span>2017-2018
+                  </span></p>
+                <p class="tabs__description"><span>Design Nominees </span>- Site of the day <span>2013-2014
+                  </span></p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+                <p class="tabs__description"><span>User experience design </span>- UI.UX <span>Delight the user and make
+                    it
+                    work.</span></p>
+                <p class="tabs__description"><span>Web and user interface design </span>- Development <span>Websites,
+                    web experiences
+                  </span></p>
+                <p class="tabs__description"><span>Interaction Design </span>- Animation <span>I like to move it move
+                    it.
+                  </span></p>
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description"><span>Bachelor's Science in Computer Science </span>- ADA
+                  University<span>2024</span></p>
+                <p class="tabs__description"><span>Bachelor's Science in Computer Science </span>- ADA
+                  University<span>2024</span></p>
+                <p class="tabs__description"><span>Bachelor's Science in Computer Science </span>- ADA
+                  University<span>2024</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">My Latest Project</h2>
+      <p class="section__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque asperiores
+        eligendi
+        alias recusandae id. Repellendus?</p>
+
+      <div class="portfolio__container container grid">
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Development</p>
+            <h3 class="portfolio__title">Web Design</h3>
+            <p class="portfolio__description">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Product Design</p>
+            <h3 class="portfolio__title">App Development</h3>
+            <p class="portfolio__description">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Application</p>
+            <h3 class="portfolio__title">Photoshop Design</h3>
+            <p class="portfolio__description">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Web Design</p>
+            <h3 class="portfolio__title">Website Design</h3>
+            <p class="portfolio__description">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Application</p>
+            <h3 class="portfolio__title">Web Application</h3>
+            <p class="portfolio__description">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="assets/img/portfolio-6.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Photoshop</p>
+            <h3 class="portfolio__title"> Photo Editing</h3>
+            <p class="portfolio__description">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Hire Me</h2>
+
+          <p class="contact__description">
+            I am available for freelance work. Connect with me via phone: <a href="tel:+994555555555">+994555555555</a>
+            or email:
+            <a href="mailto:admin@example.com">aasgarov.14000@ada.edu.az</a>
+          </p>
+
+          <form class="contact__form" id="contact-form">
+
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="Your Name *" class="contact__input" id="contact-name" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="Your e-mail *" class="contact__input" id="contact-email" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="text" name="subject" placeholder="Write a Subject *" class="contact__input"
+                id="contact-subject" />
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" class="contact__input textarea"
+                placeholder="Your Message"></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn">
+
+            <p class="error__message" id="error-message"></p>
+          </form>
+        </div>
+
+        <img src="assets/img/My.jpg" alt="" class="contact__img">
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">
+        a<span>s</span>im
+      </a>
+
+      <div class="footer__socials">
+        <a href="www.facebook.com" class="footer__social-link" target="_blank">
+          <i class="uil uil-facebook-f"></i>
+        </a>
+
+        <a href="www.twitter.com" class="footer__social-link" target="_blank">
+          <i class="uil uil-twitter"></i>
+        </a>
+
+        <a href="www.linkedin.com" class="footer__social-link" target="_blank">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="www.instagram.com" class="footer__social-link" target="_blank">
+          <i class="uil uil-instagram"></i>
+        </a>
+      </div>
+      <p class="footer__copyright">&copy; All rights reserved</p>
+    </div>
+  </footer>
+
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-up scrollup__icon"></i>
+  </a>
+
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
